@@ -5,7 +5,7 @@ spring:
   application:
     name: auth-service
   datasource:
-    url: jdbc:h2:mem:auth_service_db
+    url: jdbc:h2:mem:auth_service_prod_db
     driverClassName: org.h2.Driver
     username: sa
     password: "{cipher}509bf344fbc016a04bb59116e19c4a28051f5a13040c6bee9cf4047aa2193431"
